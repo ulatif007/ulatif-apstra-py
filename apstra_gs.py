@@ -1,3 +1,6 @@
+# (c) 2022 Usman Latif
+# Juniper Networks Professional Services
+
 #!/usr/bin/python3.8
 #
 from aos.client import AosClient
