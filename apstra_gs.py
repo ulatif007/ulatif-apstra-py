@@ -11,7 +11,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 AOS_IP = "1.1.1.1"
 AOS_PORT = 443
 AOS_USER = "admin"
-AOS_PW = "xxxxxxxxxx"
+AOS_PW = "admin"
 
 aos = AosClient(protocol="https", host=AOS_IP, port=AOS_PORT)
 aos.auth.login(AOS_USER, AOS_PW)
