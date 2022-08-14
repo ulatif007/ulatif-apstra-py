@@ -5,11 +5,15 @@
     leafports:
        - lname: LEAF1
          lport: xe-0/0/1
-       - lname: LEAF2
+       - lname: LEAF1
          lport: xe-0/0/2
+       - lname: LEAF1
+         lport: xe-0/0/3
+       - lname: LEAF1
+         lport: xe-0/0/4
 
   - gsname: testserverB
-    lagif: null
+    lagif: lacp_active
     trid: 2
     leafports:
        - lname: LEAF3
@@ -19,14 +23,14 @@
 
   - gsname: testserverC
     lagif: null
-    trid: 3
+    trid: 2
     leafports:
        - lname: LEAF1
-         lport: ge-0/0/3
+         lport: xe-0/0/9
          
   - gsname: testserverD
     lagif: null
     trid: 3
     leafports:
        - lname: LEAF3
-         lport: ge-0/0/3
+         lport: ge-0/0/9
