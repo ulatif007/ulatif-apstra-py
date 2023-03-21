@@ -1,35 +1,5 @@
 server_label,server_hostname,srv_intf1,srv_intf2,leaf1_name,leaf1_srv_intf,leaf2_name,leaf2_srv_intf,lacp_mode,leaf_model,ct_name
-eciem1e,eciem1e-10.8.66.1,eth0,eth1,ECC2DCDLE2,et-0/0/21,ECC2DCDLE4,et-0/0/21,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciem2e,eciem2e-10.8.66.2,eth0,eth1,ECC2DCDLE2,et-0/0/22,ECC2DCDLE4,et-0/0/22,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciem3e,eciem3e-10.8.66.3,eth0,eth1,ECC2DCDLE2,et-0/0/23,ECC2DCDLE4,et-0/0/23,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciem4e,eciem4e-10.8.66.4,eth0,eth1,ECC2DCDLE2,et-0/0/24,ECC2DCDLE4,et-0/0/24,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew10e,eciew10e-10.8.72.107,eth0,eth1,ECC2DCDLE2,et-0/0/9,ECC2DCDLE4,et-0/0/10,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew11e,eciew11e-10.8.72.19,eth0,eth1,ECC2DCDLE2,et-0/0/11,ECC2DCDLE4,et-0/0/12,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew12e,eciew12e-10.8.72.20,eth0,eth1,ECC2DCDLE2,et-0/0/10,ECC2DCDLE4,et-0/0/11,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew13e,eciew13e-10.8.72.21,eth0,eth1,ECC2DCDLE2,et-0/0/15,ECC2DCDLE4,et-0/0/13,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew14e,eciew14e-10.8.72.22,eth0,eth1,ECC2DCDLE2,et-0/0/12,ECC2DCDLE4,et-0/0/14,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew15e,eciew15e-10.8.72.23,eth0,eth1,ECC2DCDLE2,et-0/0/14,ECC2DCDLE4,et-0/0/15,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew16e,VM-eciew16e-10.8.72.24,eth0,eth1,ECC2DCDLE2,et-0/0/16,ECC2DCDLE4,et-0/0/16,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew17e,VM-eciew17e-10.8.72.25,eth0,eth1,ECC2DCDLE2,et-0/0/17,ECC2DCDLE4,et-0/0/17,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew18e,VM-eciew18e-10.8.72.26,eth0,eth1,ECC2DCDLE2,et-0/0/18,ECC2DCDLE4,et-0/0/18,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew19e,eciew19e,eth0,eth1,ECC2DCDLE2,et-0/0/19,ECC2DCDLE4,et-0/0/19,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew1e,eciew1e-10.8.72.1,eth0,eth1,ECC2DCDLE2,et-0/0/1,ECC2DCDLE4,et-0/0/1,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew20e,VM-eciew20e-10.8.72.28,eth0,eth1,ECC2DCDLE2,et-0/0/20,ECC2DCDLE4,et-0/0/20,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew21e,VM-eciew21e-10.8.72.108,eth0,eth1,ECC2DCDLE2,et-0/0/31,ECC2DCDLE4,et-0/0/31,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew22e,VM-eciew22e-10.8.72.109,eth0,eth1,ECC2DCDLE2,et-0/0/32,ECC2DCDLE4,et-0/0/32,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew23e,VM-eciew23e-10.8.72.110,eth0,eth1,ECC2DCDLE2,et-0/0/33,ECC2DCDLE4,et-0/0/33,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew24e,VM-eciew24e-10.8.72.111,eth0,eth1,ECC2DCDLE2,et-0/0/34,ECC2DCDLE4,et-0/0/34,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew25e,VM-eciew25e-10.8.72.112,eth0,eth1,ECC2DCDLE2,et-0/0/38,ECC2DCDLE4,et-0/0/38,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew26e,VM-eciew26e-10.8.72.113,eth0,eth1,ECC2DCDLE2,et-0/0/39,ECC2DCDLE4,et-0/0/39,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew27e,eciew27e,eth0,eth1,ECC2DCDLE2,et-0/0/35,ECC2DCDLE4,et-0/0/35,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew28e,VM-eciew28e-10.8.72.115,eth0,eth1,ECC2DCDLE2,et-0/0/36,ECC2DCDLE4,et-0/0/36,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew29e,VM-eciew29e-10.8.72.116,eth0,eth1,ECC2DCDLE2,et-0/0/37,ECC2DCDLE4,et-0/0/37,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew2e,eciew2e-10.8.72.2,eth0,eth1,ECC2DCDLE2,et-0/0/2,ECC2DCDLE4,et-0/0/2,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew30e,VM-eciew30e-10.8.72.117,eth0,eth1,ECC2DCDLE2,et-0/0/40,ECC2DCDLE4,et-0/0/40,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew3e,eciew3e-10.8.72.9,eth0,eth1,ECC2DCDLE2,et-0/0/3,ECC2DCDLE4,et-0/0/3,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew4e,eciew4e-10.8.72.10,eth0,eth1,ECC2DCDLE2,et-0/0/4,ECC2DCDLE4,et-0/0/4,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew5e,eciew5e-10.8.72.11,eth0,eth1,ECC2DCDLE2,et-0/0/5,ECC2DCDLE4,et-0/0/5,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew6e,eciew6e-10.8.72.12,eth0,eth1,ECC2DCDLE2,et-0/0/6,ECC2DCDLE4,et-0/0/6,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew7e,eciew7e-10.8.72.101,eth0,eth1,ECC2DCDLE2,et-0/0/7,ECC2DCDLE4,et-0/0/7,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew8e,eciew8e-10.8.72.103,eth0,eth1,ECC2DCDLE2,et-0/0/8,ECC2DCDLE4,et-0/0/8,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
-eciew9e,eciew9e-10.8.72.105,eth0,eth1,ECC2DCDLE2,et-0/0/13,ECC2DCDLE4,et-0/0/9,none,q5120,VW_PROD_ECC_edge_vlans|VW_PROD_Leaf_infra_vlans
+SERVER01,server1-host,eth0,eth1,DCLEAF1,xe-0/0/10,DCLEAF2,xe-0/0/10,none,q5120,Tagged VxLAN 'VLAN103'|Untagged VxLAN 'VLAN104'
+SERVER02,server2-host,eth0,eth1,DCLEAF3,et-0/0/22,DCLEAF4,et-0/0/22,none,q5120,Tagged VxLAN 'VLAN101'|Tagged VxLAN 'VLAN102'
+SERVER03,server3-host,eth0,eth1,DCLEAF1,et-0/0/24,DCLEAF2,et-0/0/24,active,q5120,Tagged VxLAN 'VLAN105'|Tagged VxLAN 'VLAN106'
+SERVER04,server4-host,eth0,eth1,DCLEAF5,ge-0/0/9,none,none,none,q10008,Tagged VxLAN 'VLAN111'
